@@ -1,4 +1,4 @@
-﻿<div align="center">
+<div align="center">
 
 <a href="https://github.com/lasdww/VELORA">
   <img src="assets/animated_banner.svg" width="100%" alt="VELORA Hero Banner" />
@@ -32,7 +32,7 @@
         <img src="https://img.shields.io/badge/Скачать-VeloraSetup.exe-22C55E?style=for-the-badge&logo=windows&logoColor=white" height="38" />
       </a>
       <br/><br/>
-      <sub>Размер: ~162 МБ · Рекомендуется для всех пользователей</sub>
+      <sub>Размер: ~125 МБ · Рекомендуется для всех пользователей</sub>
     </td>
     <td align="center" width="50%">
       <h3>📦 Портативная версия (.ZIP)</h3>
