@@ -1,11 +1,16 @@
 ﻿<div align="center">
 
-<img src="assets/velora.png" width="128" height="128" alt="Velora Logo" style="filter: drop-shadow(0 0 20px rgba(101, 229, 191, 0.4));" />
+<a href="https://github.com/lasdww/VELORA">
+  <img src="assets/animated_banner.svg" width="100%" alt="VELORA Hero Banner" />
+</a>
 
-# VELORA
+<br/><br/>
 
-### Премиальный VPN-клиент и комплекс обхода DPI для Windows
-**Portable Release Edition · Готов к запуску без установки**
+<p align="center">
+  <a href="https://github.com/lasdww/VELORA">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=2600&pause=1000&color=65E5BF&center=true&vCenter=true&width=680&lines=%E2%9A%A1+Next-Gen+Windows+VPN+%26+Anti-Censorship+Suite;%F0%9F%9B%A1%EF%B8%8F+VLESS+Reality+%7C+XTLS+Vision+%7C+Sing-Box;%F0%9F%9A%80+Fix+Internet%3A+Zapret+20+DPI+Strategies+(YouTube+4K+%2B+Discord);%F0%9F%8E%AE+Game+UDP+Filter+for+Discord+Voice+%26+Low-Ping+Gaming;%F0%9F%8E%A8+Obsidian+Glassmorphism+UI+with+8+Neon+Themes" alt="Velora Animated Tagline" />
+  </a>
+</p>
 
 [![Platform](https://img.shields.io/badge/Platform-Windows%2010%20%7C%2011%20(x64)-0078D6?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/lasdww/VELORA)
 [![Framework](https://img.shields.io/badge/Framework-.NET%2010%20WPF-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)](https://github.com/lasdww/VELORA)
@@ -16,7 +21,7 @@
 
 <br/>
 
-[⚡ О проекте](#-о-проекте) • [🚀 Быстрый запуск](#-быстрый-запуск-portable) • [🛡️ Возможности](#-ключевые-возможности) • [🎮 Игровой фильтр](#-игровой-фильтр-zapret) • [⌨️ Горячие клавиши](#️-горячие-клавиши) • [⚙️ Архитектура](#-архитектура-и-стек)
+[⚡ О проекте](#-о-проекте) • [🚀 Быстрый запуск](#-быстрый-запуск-portable) • [🛡️ Возможности](#-ключевые-возможности) • [🎮 Игровой фильтр](#-игровой-фильтр-zapret) • [💻 Терминал](#-живой-терминал-событий) • [⌨️ Горячие клавиши](#️-горячие-клавиши) • [⚙️ Архитектура](#-архитектура-и-стек)
 
 </div>
 
@@ -30,6 +35,16 @@
 
 > [!TIP]
 > **Это готовый портативный релиз (Portable Edition)** — структура папки организована аналогично передовым портативным приложениям (как Incy/Happ/Sing-Box). Никакой компиляции, Visual Studio или установки зависимостей не требуется: просто скачайте и запустите `Velora.exe`!
+
+---
+
+## 💻 Живой терминал событий
+
+Встроенный консольный терминал в стиле macOS с live-трансляцией сетевых событий, инициализации ядра Sing-Box, драйвера Wintun и модуля Zapret:
+
+<p align="center">
+  <img src="assets/animated_terminal.svg" width="100%" alt="Velora Animated Terminal" />
+</p>
 
 ---
 
@@ -131,8 +146,8 @@ VELORA/
 │   ├── sing-box/              # Sing-Box Core (VLESS Reality, Wintun TUN, DNS)
 │   ├── xray/                  # Xray-Core (VLESS Vision, XTLS, uTLS)
 │   └── zapret/                # WinWS, WinDivert64.sys, бинарные шаблоны и 20 стратегий
-├── assets/                    # Логотипы и медиа-ресурсы
-├── README.md                  # Документация проекта
+├── assets/                    # Анимированные баннеры, терминалы и логотипы
+├── README.md                  # Документация проекта с анимациями
 ├── LICENSE                    # Лицензия MIT
 └── THIRD-PARTY-NOTICES.md     # Уведомления об открытом коде сторонних библиотек
 ```
