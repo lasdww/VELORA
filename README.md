@@ -12,16 +12,43 @@
   </a>
 </p>
 
-[![Platform](https://img.shields.io/badge/Platform-Windows%2010%20%7C%2011%20(x64)-0078D6?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/lasdww/VELORA)
+[![Release](https://img.shields.io/github/v/release/lasdww/VELORA?style=for-the-badge&color=22C55E&label=Latest%20Release)](https://github.com/lasdww/VELORA/releases/latest)
+[![Platform](https://img.shields.io/badge/Platform-Windows%2010%20%7C%2011%20(x64)-0078D6?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/lasdww/VELORA/releases/latest)
 [![Framework](https://img.shields.io/badge/Framework-.NET%2010%20WPF-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)](https://github.com/lasdww/VELORA)
 [![Engines](https://img.shields.io/badge/Engines-Sing--Box%20%7C%20Xray%20%7C%20Zapret-00B4D8?style=for-the-badge)](https://github.com/lasdww/VELORA)
 [![Protocols](https://img.shields.io/badge/Protocols-VLESS%20Reality%20%7C%20XTLS%20Vision-22C55E?style=for-the-badge)](https://github.com/lasdww/VELORA)
-[![Security](https://img.shields.io/badge/Security-DPAPI%20%7C%20DoH%20%7C%20Kill%20Switch-E11D48?style=for-the-badge)](https://github.com/lasdww/VELORA)
 [![License](https://img.shields.io/badge/License-MIT-6366F1?style=for-the-badge)](LICENSE)
+
+<br/><br/>
+
+### 📥 Загрузка и установка
+
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <h3>🚀 Официальный установщик (.EXE)</h3>
+      <p>Автоматическая установка, интеграция в систему, ярлыки и создание драйвера Wintun в один клик</p>
+      <a href="https://github.com/lasdww/VELORA/releases/latest/download/VeloraSetup.exe">
+        <img src="https://img.shields.io/badge/Скачать-VeloraSetup.exe-22C55E?style=for-the-badge&logo=windows&logoColor=white" height="38" />
+      </a>
+      <br/><br/>
+      <sub>Размер: ~160 МБ · Рекомендуется для всех пользователей</sub>
+    </td>
+    <td align="center" width="50%">
+      <h3>📦 Портативная версия (.ZIP)</h3>
+      <p>Распакуйте в любую папку или на флешку и запускайте без установки в систему</p>
+      <a href="https://github.com/lasdww/VELORA/releases/latest/download/Velora-win-x64.zip">
+        <img src="https://img.shields.io/badge/Скачать-Velora--win--x64.zip-38BDF8?style=for-the-badge&logo=archive&logoColor=white" height="38" />
+      </a>
+      <br/><br/>
+      <sub>Размер: ~100 МБ · Включает все движки и драйвер Wintun внутри</sub>
+    </td>
+  </tr>
+</table>
 
 <br/>
 
-[⚡ О проекте](#-о-проекте) • [🚀 Быстрый запуск](#-быстрый-запуск-portable) • [🛡️ Возможности](#-ключевые-возможности) • [🎮 Игровой фильтр](#-игровой-фильтр-zapret) • [💻 Терминал](#-живой-терминал-событий) • [⌨️ Горячие клавиши](#️-горячие-клавиши) • [⚙️ Архитектура](#-архитектура-и-стек)
+[⚡ О проекте](#-о-проекте) • [💻 Терминал логов](#-живой-терминал-событий) • [🛡️ Возможности](#-ключевые-возможности) • [🎮 Игровой фильтр](#-игровой-фильтр-zapret) • [⌨️ Горячие клавиши](#️-горячие-клавиши) • [⚙️ Архитектура](#-архитектура-и-стек)
 
 </div>
 
@@ -32,9 +59,6 @@
 **Velora** — это сетевой клиент нового поколения для Windows, объединяющий современный стек протоколов **VLESS Reality (XTLS Vision)** и передовой инструмент прямого обхода блокировок DPI **Zapret (WinWS)** в едином высокопроизводительном приложении.
 
 Проект создан с упором на максимальную скорость, отсутствие задержек, бескомпромиссную конфиденциальность и визуальное совершенство в тёмном обсидиановом стиле с аппаратными анимациями.
-
-> [!TIP]
-> **Это готовый портативный релиз (Portable Edition)** — структура папки организована аналогично передовым портативным приложениям (как Incy/Happ/Sing-Box). Никакой компиляции, Visual Studio или установки зависимостей не требуется: просто скачайте и запустите `Velora.exe`!
 
 ---
 
@@ -101,16 +125,10 @@
 
 ---
 
-## 🚀 Быстрый запуск (Portable)
+## 🚀 Инструкция по использованию
 
-Портативная версия не требует установки и готова к работе сразу после распаковки:
-
-1. **Скачайте или склонируйте репозиторий**:
-   ```bash
-   git clone https://github.com/lasdww/VELORA.git
-   cd VELORA
-   ```
-2. **Запустите `Velora.exe` от имени администратора**:
+1. **Скачайте установщик** (`VeloraSetup.exe`) или **портативный архив** (`Velora-win-x64.zip`) из блока [Загрузка](#-загрузка-и-установка).
+2. **Запустите Velora от имени администратора**:
    > [!IMPORTANT]
    > Права администратора требуются для создания драйвера виртуального сетевого адаптера `Wintun` и перехвата сетевых пакетов драйвером `WinDivert` (Zapret).
 3. **Добавьте сервер**:
@@ -136,22 +154,6 @@
 
 ## ⚙️ Архитектура и стек
 
-```
-VELORA/
-├── Velora.exe                 # Главный исполняемый файл приложения (.NET 10 WPF)
-├── Velora.dll                 # Основной модуль графического интерфейса
-├── Velora.Core.dll            # Ядро: VLESS-парсер, криптография DPAPI, подписки
-├── wintun.dll                 # Драйвер высокоскоростного TUN-адаптера ядра Windows
-├── engine/
-│   ├── sing-box/              # Sing-Box Core (VLESS Reality, Wintun TUN, DNS)
-│   ├── xray/                  # Xray-Core (VLESS Vision, XTLS, uTLS)
-│   └── zapret/                # WinWS, WinDivert64.sys, бинарные шаблоны и 20 стратегий
-├── assets/                    # Анимированные баннеры, терминалы и логотипы
-├── README.md                  # Документация проекта с анимациями
-├── LICENSE                    # Лицензия MIT
-└── THIRD-PARTY-NOTICES.md     # Уведомления об открытом коде сторонних библиотек
-```
-
 | Компонент | Назначение |
 | :--- | :--- |
 | **WPF / XAML (.NET 10)** | Современный UI с аппаратным рендерингом DirectX и плавной частотой кадров |
@@ -167,7 +169,6 @@ VELORA/
 
 * **Операционная система**: Windows 10 (версия 1809 и новее) или Windows 11 (64-bit / x64).
 * **Права доступа**: Права локального администратора (для создания адаптера Wintun и запуска службы перехвата пакетов WinDivert).
-* **Свободное место**: ~300 МБ на диске.
 
 ---
 
